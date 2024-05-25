@@ -1,0 +1,213 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header
+{
+	position: relative;
+}
+ 
+nav ul li a
+{
+	color: black;
+}	
+nav ul li a:hover
+{
+	color: #D9364B;
+	 font-weight: 800;
+}
+.banner_heading
+{
+	margin: 30px 0px 0px 0px;
+	text-align: center;
+}
+
+#banner1
+{
+	width: 100%;
+	position: relative;
+
+}
+#banner1 img
+{
+	width: 100%;
+	height: 100%;
+}
+#banner1 img:hover 
+{
+	box-shadow:1px 0px 5px ;
+	transition: all 1s;
+	border-radius: 10px;
+
+}
+#banner1 p
+{
+	position: absolute;
+	left: 25px;
+	bottom: 4%;
+	color: white;
+}
+
+.banner2
+{
+	background-color: #132445;
+	color: white;	 
+	padding: 50px 0px;
+}
+ .banner2_heading
+ {
+ 	text-align: center;
+ 	padding-bottom: 50px;
+ }
+ .banner_heading h5
+ {
+ 	color:#D9364B ;
+ }
+
+.banner_form input
+{
+	width: 45%;
+	height: 50px;
+	padding: 10px;
+	margin: 10px;
+}
+.banner_form textarea
+{
+	width: 95%;
+	height: 100px;
+	padding: 10px;
+	margin: 10px;
+}
+.banner_form
+{
+	text-align: right;
+	width: 100%;
+	height: 100%;
+
+}
+.banner_form input[type="button"]
+{
+	background-color: white;
+	border-radius: 25px;
+	margin: 10px;
+	padding: 10px 30px;
+	transition: all 1s;
+
+}
+.banner_form input[type="button"]:hover
+{
+	transform: scale(0.9);
+}
+.banner_info
+{
+	background-color: #D9364B;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+}
+.banner_info i 
+{
+	padding: 10px ;
+	font-size: 30px;
+}
+.banner_info a 
+{
+	color: white;
+
+}
+#fa-facebook,#fa-instagram,#fa-twitter,#fa-youtube
+{
+	transition: all 1s;
+}
+ #fa-gmail:hover ,#fa-phone:hover ,#fa-map:hover
+{
+	transform: scale(1.2);
+	 background-color:tabrixz blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+}
+
+  #fa-facebook:hover
+{
+	transform: scale(1.2);
+	background-color: #316FF6;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+}
+  #fa-instagram:hover
+{
+	transform: scale(1.2);
+	background-color: blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+  #fa-twitter:hover
+{
+	transform: scale(1.2);
+	background-color: blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: #1DA1F2;
+}
+
+  #fa-youtube:hover
+{
+	transform: scale(1.2);
+	background-color: blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: red;
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	padding: 50px 0px;
+}
+.footer_sec
+{
+	padding: 10px 0px;
+}
+.footer_sec p 
+{
+	padding: 10px 0px;
+}
+.footer_sec span i 
+{
+	margin-right:20px ;
+	padding: 10px 0px;
+	font-size: 30px;
+}
+.footer_sec a
+{
+	color: white;
+	display: flex;
+	padding: 10px 0px;
+	margin: 10px 0px;
+}
+.footer_sec input 
+{
+	width: 100%;
+	padding: 10px;
+	background-color: transparent;
+	color: white;
+	border: none;
+	text-align: left;
+	border-bottom:0.8px solid;
+}
+
+.footer_sec input[type="submit"]
+{
+	width: 50%;
+	padding: 0px;
+	text-align: left;
+}
